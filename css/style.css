@@ -1,0 +1,25 @@
+::root {
+  --primary-color: ;
+  --secondary-color: ;
+  
+  --primary-text-color: ;
+  --secondary-text-color: ;
+
+  --primary-bg-color: ;
+  --secondary-bg-color: ;
+
+  --primary-border-color: ;
+  --secondary-border-color: ;
+
+  --primary-shadow-color: ;
+  --secondary-shadow-color: ;
+
+  --primary-hover-color: ;
+  --secondary-hover-color: ;
+
+  --primary-hover-text-color: ;
+  --secondary-hover-text-color: ;
+
+  --primary-button-color: ;
+  --secondary-button-color: ;
+}
