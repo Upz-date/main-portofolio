@@ -23,3 +23,7 @@
   --primary-button-color: ;
   --secondary-button-color: ;
 }
+
+body {
+  font-family: 'Jost', sans-serif;
+}
