@@ -2,7 +2,7 @@
   --primary-color: ;
   --secondary-color: ;
   
-  --primary-text-color: ;
+  --primary-text-color:#000000 ;
   --secondary-text-color: ;
 
   --primary-bg-color: ;
@@ -26,4 +26,45 @@
 
 body {
   font-family: 'Jost', sans-serif;
+}
+
+
+footer {
+  position: sticky;
+  top: 100%;
+
+  & .menu-port {
+
+    & .list {
+      padding: 10px;
+      text-align: center;
+      padding: 0;
+
+      & li {
+        padding-top: 30px;
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+        
+        & a {
+          text-decoration: none;
+          padding: 15px;
+          color: var(--primary-text-color);
+        }
+      }
+    }
+  }
+
+  & .line {
+    border-bottom: 1px solid gray;
+    margin: 0 50px;
+  }
+
+  & .copyright {
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+  }
 }
