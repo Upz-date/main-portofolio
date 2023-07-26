@@ -30,22 +30,18 @@ body {
 
 
 footer {
-  position: sticky;
-  top: 100%;
 
   & .menu-port {
 
     & .list {
-      padding: 10px;
       text-align: center;
-      padding: 0;
 
       & li {
         padding-top: 30px;
         text-align: center;
         list-style: none;
         display: inline-block;
-        
+
         & a {
           text-decoration: none;
           padding: 15px;
@@ -63,7 +59,7 @@ footer {
   & .copyright {
     text-align: center;
     padding: 10px;
-    padding-top: 20px;
+    margin-top: 20px;
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
   }
