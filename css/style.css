@@ -33,13 +33,15 @@ footer {
 
   & .menu-port {
     display: flex;
+    flex-direction: row;
+    gap: 2em;
     padding: 20px 0;
-    justify-content: center;
+    justify-content: center; 
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
 
     & div {
-
+      
       & a {
         text-decoration: none;
         padding: 15px;
